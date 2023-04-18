@@ -104,7 +104,7 @@ button a {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 150%;
-	background: #5E3BEE;
+	background: var(--primary-color);
 	border-radius: 5.33333px;
 	color:#FFFFFF;
 }
@@ -288,7 +288,7 @@ button a {
 .testemonials-container{
     padding: 10vh 2.5vw;
 	margin: 10vh auto;
-	background:#F5FCFF;
+	background: var(--container-color);
 }
 .testemonials-title{
 	font-weight: 600;
@@ -373,7 +373,7 @@ button a {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 150%;
-	background: #5E3BEE;
+	background: var(--primary-color);
 	border-radius: 5.33333px;
 	color:#FFFFFF;
 	padding:1vh 1.5vw;
@@ -416,7 +416,7 @@ button a {
 	line-height: 150%;
 }
 .contact-halfinput>input{
-	border: 1.33333px solid #5E3BEE;
+	border: 1.33333px solid var(--primary-color);
 	border-radius: 8px;
 	font-size:26px;
 	padding:0.3em;
@@ -433,14 +433,14 @@ button a {
 	line-height: 150%;
 }
 .contact-input>select{
-	border: 1.33333px solid #5E3BEE;
+	border: 1.33333px solid var(--primary-color);
 	border-radius: 8px;
 	font-size:26px;
 	padding:0.3em;
 	width:100%;
 }
 .contact-input>input{
-	border: 1.33333px solid #5E3BEE;
+	border: 1.33333px solid var(--primary-color);
 	border-radius: 8px;
 	font-size:18px;
 	min-height:30vh;
@@ -449,7 +449,7 @@ button a {
 }
 
 .footer-container{
-	background:#F5FCFF;
+	background:var(--container-color);
     padding: 4vh 0;
 }
 .footer{
@@ -518,7 +518,7 @@ button a {
 		align-items: center;
 		padding: 5vh 5vw;
 		width: 95vw;
-		background:#F5FCFF;
+		background: var(--container-color);
 	}
 	.intro-text p{
 		padding-top:2vh;
@@ -584,7 +584,7 @@ button a {
 		width:100%;
 		border-radius:10px;
 		padding:2vw;
-		background:#F5FCFF;
+		background:var(--container-color);
 	}
 	.expertise-name{
 		font-weight: 400;
@@ -726,7 +726,7 @@ button a {
 	.comments-container{
 		padding: 15vh 2.5vw;
 		width: 95vw;
-		background:#F5FCFF;
+		background:var(--container-color);
 	}
 	.comments-title{
 		font-weight: 300;
@@ -807,7 +807,7 @@ button a {
 		font-weight: 200;
 		font-size: 1em;
 		line-height: 150%;
-		background: #5E3BEE;
+		background: var(--primary-color);
 		border-radius: 5.33333px;
 		color:#FFFFFF;
 		padding:1vh 1.5vw;
@@ -850,7 +850,7 @@ button a {
 		line-height: 150%;
 	}
 	.contact-halfinput>input{
-		border: 1.33333px solid #5E3BEE;
+		border: 1.33333px solid var(--primary-color);
 		border-radius: 8px;
 		font-size:1.5em;
 		padding:0.3em;
@@ -867,14 +867,14 @@ button a {
 		line-height: 150%;
 	}
 	.contact-input>select{
-		border: 1.33333px solid #5E3BEE;
+		border: 1.33333px solid var(--primary-color);
 		border-radius: 8px;
 		font-size:1.5em;
 		padding:0.3em;
 		width:100%;
 	}
 	.contact-input>input{
-		border: 1.33333px solid #5E3BEE;
+		border: 1.33333px solid var(--primary-color);
 		border-radius: 8px;
 		font-size:1em;
 		min-height:30vh;
@@ -883,7 +883,7 @@ button a {
 	}
 
 	.footer-container{
-		background:#F5FCFF;
+		background:var(--container-color);
 		padding: 4vh 0;
 		text-align:center;
 	}
